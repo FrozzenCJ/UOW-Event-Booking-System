@@ -11,3 +11,7 @@ Book: Microsoft.Project.2016.Step.by.Step
 CSIT214 group assignment is about the discription of project.
 
 Thanks to xu's (China) co-development for the complete work and tutor Bazz's (Indonesia) guiding.
+
+Project technology stack:
+Front-end: HTML + CSS + JS (Using JQuery lib and Bootstrap framework);
+Back-end: XAMPP (Building microserver, using apache + mysql + php);
