@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Quicksand', cursive, sans-serif;
+    color: black !important;
+
+}
+
+
+@keyframes animate{
+    from {
+        background-position: 0 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.container{
+    padding-right: 15%;
+}
+
+.form-heading{
+    margin-bottom: 4%;
+}
+
+.nav-item{
+    font-weight: bolder;
+    color: black !important;
+    font-size: 18px;
+}
+
+.form-control:focus {
+    border-color: #f29200;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(242, 146, 0, 0.6);
+  }
+
+  .material-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: bottom;
+    padding-right: 3px;
+}
+
+.card-title{
+    font-size: 12px;
+}
+
+.dark{
+    color:white;
+}
+
+.landing-text{
+    margin-top: 8%;
+}
+
+.bg{
+    position: relative;
+    background: #000000 url(res/img/bekgron.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Quicksand", cursive,sans-serif;
+    font-weight: bolder;
+    color: #D3D3D3;
+}
